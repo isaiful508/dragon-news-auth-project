@@ -42,7 +42,7 @@ const Navbar = () => {
                 <div className="w-10 rounded-full mr-2">
                     <img src={userIcon} alt="" />
                 </div>
-                <Link className="btn w-[140px] h-[44] text-white bg-[#403F3F]" > Login</Link>
+                <Link to='/login' className="btn w-[140px] h-[44] text-white bg-[#403F3F]" > Login</Link>
 
             </div>
         </div>
